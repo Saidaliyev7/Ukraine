@@ -25,7 +25,7 @@ $(document).ready(function () {
 
   var position = $(window).scrollTop();
 
-  if($("body").hasClass("home-firs-page")) {
+  if($('body').hasClass('home-firs-page')) {
     $(window).scroll(function () {
       //console.log("salam")
       // console.log($("#Lamia").offset().top)
@@ -159,13 +159,13 @@ $(document).ready(function(){
 $(document).ready(function(){ 
   console.log($(window).width())
   if($(window).width()<991) {
-    $(".head .navs-item").click(function(){
-      $(this).find(".dropdown-menus").slideToggle()
+    $('.head .navs-item').click(function(){
+      $(this).find('.dropdown-menus').slideToggle()
       })
   }
   if($(window).width()>991){
-    $(".head .navs-item").hover(function(){
-      $(this).find(".dropdown-menus").slideToggle()
+    $('.head .navs-item').hover(function(){
+      $(this).find('.dropdown-menus').slideToggle()
       })
   }
 
