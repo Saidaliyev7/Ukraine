@@ -84,6 +84,7 @@
                         border:1px solid #c9c9c9;
                         border-radius: 100%;
                         margin-right: 5px;
+                        transition: 0.3s ease;
 
                         a{
                             color: #337ab7;
@@ -92,6 +93,7 @@
                         &:nth-child(1):hover{
                             border-color: #3b5998;
                             background: #3b5998;
+                            transition: 0.3s ease;
                             a{
                                 color: #fff;
                             }
@@ -99,6 +101,7 @@
                         &:nth-child(2):hover{
                             border-color: #00aced;
                             background: #00aced;
+                            transition: 0.3s ease;
                             a{
                                 color: #fff;
                             }
@@ -106,6 +109,7 @@
                         &:nth-child(3):hover{
                             border-color: #517fa4;
                             background: #517fa4;
+                            transition: 0.3s ease;
                             a{
                                 color: #fff;
                             }
@@ -121,9 +125,11 @@
                     font-size: 13px;
                     width: 100%;
                     margin-bottom: 20px;
+                    transition: all 0.4s ease-out;
                     &:focus{
                         border-color: #ffb606;
                         outline: none;
+                        //transition: 0.2s ease;
                     }
                 }
                 .btn-demo{

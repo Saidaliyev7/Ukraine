@@ -1575,3 +1575,24 @@
 }
 
 /*=====  End of navbar responsive  ======*/
+
+@media screen and (max-width:991px) {
+  .head .container .image .item .text-head {
+    h1 {
+      font-size: 16px !important;
+    }
+  }
+}
+@media screen and (max-width:991px) and (min-width:768px) {
+  .head .container .image .item .text-head {
+    padding: 25% 10% 10% 10% !important;
+  }
+}
+
+@media screen and (max-width:666px) {
+  .table-medicine {
+      width: 100% !important;
+      overflow-x: scroll !important;
+  }
+}
+

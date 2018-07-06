@@ -157,9 +157,18 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){ 
-$(".head .navs-item").click(function(){
-$(this).find(".dropdown-menus").slideToggle()
-})
+  console.log($(window).width())
+  if($(window).width()<991) {
+    $(".head .navs-item").click(function(){
+      $(this).find(".dropdown-menus").slideToggle()
+      })
+  }
+  if($(window).width()>991){
+    $(".head .navs-item").hover(function(){
+      $(this).find(".dropdown-menus").slideToggle()
+      })
+  }
+
 
 // if($("body").hasClass("ukraine-page")) {
 //   var position = $(window).scrollTop();
