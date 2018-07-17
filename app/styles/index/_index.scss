@@ -11,7 +11,7 @@ $clr_light_black: #111;
 $light-grey: #f8f8f8;
 $grey:#efefef;
 
-
+$bg_drk_yellow:#ffb605;
 $bg_drk_blue:#2e56a0;
 $bg_violet:#514779;
 $bg_blue:#0cf;
@@ -27,9 +27,9 @@ $bg_show_responsive:0 10px 40px 0px rgba(0, 0, 0, 0.6);
 body{
     margin: 0;
     padding: 0;
-    font-family: open sans,Helvetica,Arial,sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 18px;
-    background-color: $bg_drk_blue;
+    background-color: $bg_drk_yellow;
 }
 
 // @media screen and (min-width:1300px){

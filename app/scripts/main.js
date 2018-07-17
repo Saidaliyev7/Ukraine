@@ -170,32 +170,32 @@ $(document).ready(function(){
   }
 
 
-// if($("body").hasClass("ukraine-page")) {
-//   var position = $(window).scrollTop();
-//   $(window).scroll(function () {
-//     //console.log("salam")
-//      //console.log($(".content-box .content .image").offset().top)
+if($('body').hasClass('ukraine-page')) {
+  var position = $(window).scrollTop();
+  $(window).scroll(function () {
+    //console.log("salam")
+     //console.log($(".content-box .content .image").offset().top)
   
-//     var scroll = $(this).scrollTop();
-//     if (screen.width >= 992) {
-//       if (($('.content-box .content .image').offset().top - ($(this).scrollTop() + $(this).height())) < 200) {
+    var scroll = $(this).scrollTop();
+    if (screen.width >= 992) {
+      if (($('.content-box .content .image').offset().top - ($(this).scrollTop() + $(this).height())) < 200) {
   
-//         var scroll = $(this).scrollTop();
-//         var a = ($('.content-box .content .image').offset().top - scroll) - 450;
-//         // console.log(a)
-//         // console.log("salam")
-//         $('.content-box .content .image').css('transform',' translateY(' + a / 9 + 'px)')
-//       } else {
-//         var a = ($('.content-box .content .image').offset().top + scroll) - 450;
-//         $('.content-box .content .image').css('transform',' translateY(' + a / 9 + 'px)')
+        var scroll = $(this).scrollTop();
+        var a = ($('.content-box .content .image').offset().top - scroll) - 450;
+        // console.log(a)
+        // console.log("salam")
+        $('.content-box .content .image').css('transform',' translateY(' + a / 9 + 'px)')
+      } else {
+        var a = ($('.content-box .content .image').offset().top + scroll) - 450;
+        $('.content-box .content .image').css('transform',' translateY(' + a / 9 + 'px)')
   
-//       }
-//       console.log(position+"lol" +scroll)
-//       position = scroll;
-//     }
+      }
+      console.log(position+'lol' +scroll)
+      position = scroll;
+    }
   
-//   })
-// }
+  })
+}
 
 })
 
